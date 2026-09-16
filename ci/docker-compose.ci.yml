@@ -34,7 +34,7 @@ services:
       - ci-network
 
   wiremock:
-    image: wiremock/wiremock:3.3.1
+    image: wiremock/wiremock:3.13.2-3
     container_name: ci-wiremock
     volumes:
       - ../wiremock/mappings:/home/wiremock/mappings
