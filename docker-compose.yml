@@ -4,7 +4,7 @@ services:
   # Keycloak - MitID OIDC Mock
   # Provides realistic Danish government authentication with test personas
   keycloak:
-    image: quay.io/keycloak/keycloak:23.0
+    image: quay.io/keycloak/keycloak:26.7
     container_name: danish-gov-keycloak
     restart: unless-stopped
     environment:
