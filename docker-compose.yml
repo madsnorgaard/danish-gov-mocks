@@ -35,7 +35,7 @@ services:
   # WireMock - Serviceplatformen SOAP Mock
   # Mocks CPR lookup (SF1520), CVR lookup (SF1530), and Digital Post (SF1601)
   wiremock:
-    image: wiremock/wiremock:3.3.1
+    image: wiremock/wiremock:3.13.2-3
     container_name: danish-gov-wiremock
     restart: unless-stopped
     volumes:
