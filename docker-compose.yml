@@ -59,7 +59,7 @@ services:
   # Mocks Danish address autocomplete and validation
   # Note: Requires dawa-openapi.yaml specification
   prism:
-    image: stoplight/prism:4
+    image: stoplight/prism:5
     container_name: danish-gov-prism
     restart: unless-stopped
     volumes:
